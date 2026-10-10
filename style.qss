@@ -1,0 +1,206 @@
+* {
+    font-family: ".AppleSystemUIFont", "Helvetica Neue", sans-serif;
+    color: #E8E8E8;
+}
+
+QMainWindow, QWidget {
+    background-color: #14161A;
+}
+
+#sidebar {
+    background-color: #0D0F12;
+    border-right: 1px solid #22252B;
+}
+
+#logo {
+    font-size: 20px;
+    font-weight: 700;
+    color: #E63946;
+    letter-spacing: 1px;
+}
+
+#sectionLabel {
+    font-size: 11px;
+    font-weight: 600;
+    color: #8A8F98;
+    letter-spacing: 1px;
+    margin-top: 4px;
+}
+
+QPushButton {
+    background-color: #1E2127;
+    border: 1px solid #2A2E36;
+    border-radius: 8px;
+    padding: 8px 12px;
+    text-align: left;
+    font-size: 13px;
+}
+
+QPushButton:hover {
+    background-color: #2A2E36;
+}
+
+QPushButton:pressed {
+    background-color: #E63946;
+    border-color: #E63946;
+}
+
+QToolButton {
+    background-color: #1E2127;
+    border: 1px solid #2A2E36;
+    border-radius: 6px;
+    padding: 6px 10px;
+    font-size: 14px;
+}
+
+QToolButton:hover {
+    background-color: #2A2E36;
+}
+
+#breadcrumb {
+    font-size: 13px;
+    color: #B7BBC2;
+}
+
+#statusLabel {
+    font-size: 11px;
+    color: #6E7280;
+}
+
+QLineEdit {
+    background-color: #1E2127;
+    border: 1px solid #2A2E36;
+    border-radius: 8px;
+    padding: 6px 10px;
+    font-size: 13px;
+}
+
+QLineEdit:focus {
+    border-color: #E63946;
+}
+
+QListWidget {
+    background-color: transparent;
+    border: none;
+    font-size: 14px;
+    outline: none;
+}
+
+QListWidget::item {
+    padding: 9px 10px;
+    border-radius: 6px;
+}
+
+QListWidget::item:hover {
+    background-color: #1E2127;
+}
+
+QListWidget::item:selected {
+    background-color: #E63946;
+    color: #FFFFFF;
+}
+
+#favList::item {
+    font-size: 12px;
+}
+
+QScrollBar:vertical {
+    background: transparent;
+    width: 10px;
+}
+
+QScrollBar::handle:vertical {
+    background: #2A2E36;
+    border-radius: 5px;
+    min-height: 24px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background: #3A3F49;
+}
+
+QListWidget[viewMode="1"]::item {
+    padding: 6px;
+    text-align: center;
+}
+
+#downloadsList {
+    font-size: 11px;
+}
+
+#downloadsList::item {
+    padding: 6px 4px;
+    border-radius: 6px;
+    margin-bottom: 2px;
+}
+
+#downloadsList::item:hover {
+    background-color: #1E2127;
+}
+
+#detailTitle {
+    font-size: 28px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+#detailMeta {
+    font-size: 12px;
+    color: #9A9FA8;
+}
+
+#detailSynopsis {
+    font-size: 14px;
+    color: #D5D8DD;
+    line-height: 1.5;
+}
+
+#playHeroBtn {
+    background-color: #E63946;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 20px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+#playHeroBtn:hover {
+    background-color: #F04452;
+}
+
+#musicBar {
+    background-color: #0D0F12;
+    border-top: 1px solid #22252B;
+}
+
+#playerControls {
+    background-color: #0D0F12;
+    border-top: 1px solid #22252B;
+}
+
+#nowPlayingLabel {
+    font-size: 13px;
+    font-weight: 600;
+    color: #E8E8E8;
+}
+
+QSlider::groove:horizontal {
+    background: #2A2E36;
+    height: 4px;
+    border-radius: 2px;
+}
+
+QSlider::handle:horizontal {
+    background: #E63946;
+    width: 12px;
+    height: 12px;
+    margin: -4px 0;
+    border-radius: 6px;
+}
+
+QSlider::sub-page:horizontal {
+    background: #E63946;
+    border-radius: 2px;
+}

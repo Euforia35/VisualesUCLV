@@ -1,0 +1,9 @@
+PySide6>=6.5
+requests>=2.31
+beautifulsoup4>=4.12
+Pillow>=10.0
+mutagen>=1.47
+py2app>=0.28
+
+# Opcional: solo para la función «Enviar a MiBox / Chromecast»
+pychromecast>=14.0
